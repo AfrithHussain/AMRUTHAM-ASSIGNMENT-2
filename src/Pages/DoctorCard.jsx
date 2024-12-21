@@ -2,7 +2,7 @@ import React from "react";
 import { BiMessageDetail } from "react-icons/bi";
 import { LuPill } from "react-icons/lu";
 import { SlGraduation } from "react-icons/sl"
-import DoctorImage from "../assets/Group 39487.png";
+import Group from "../assets/Group.png";
 
 function DoctorCard() {
   return (
@@ -14,7 +14,7 @@ function DoctorCard() {
       {/* Profile Image */}
       <div className="relative">
         <img
-          src={DoctorImage}
+          src={Group}
           alt="Doctor"
           className="w-36 h-36 object-contain rounded-full mx-auto "
         />
@@ -72,7 +72,7 @@ function DoctorCard() {
       {/* Profile Image */}
       <div className="relative">
         <img
-          src={DoctorImage}
+          src={Group}
           alt="Doctor"
           className="w-36 h-36 object-contain rounded-full mx-auto "
         />
@@ -130,7 +130,7 @@ function DoctorCard() {
       {/* Profile Image */}
       <div className="relative">
         <img
-          src={DoctorImage}
+          src={Group}
           alt="Doctor"
           className="w-36 h-36 object-contain rounded-full mx-auto "
         />

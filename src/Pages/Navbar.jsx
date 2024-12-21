@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Logo from '../assets/image 45.png'
+import amrutam from '../assets/amrutam.png'
 import { Link } from 'react-router-dom'
 
 
@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div>
         <div className="flex justify-between px-32 items-center logo py-3 pt-5">
-            <img className='w-44' src={Logo} alt="" />
+            <img className='w-44' src={amrutam} alt="" />
             <div className="flex gap-10 font-bold  text-neutral-600 text-sm">
                 <Link onClick={()=>setTextColor('home')}   to={'/home'}><p className={`${textColor === 'home' ?  'text-lime-900' : ''} `}>Home</p></Link>
                 <Link onClick={()=>setTextColor('find')} to={'/'}><p className={`${textColor === 'find' ?  'text-lime-900' : ''} `}>Find Doctors</p></Link>
