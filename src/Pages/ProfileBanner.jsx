@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import banner from "../assets/banner.png";
+import Banner from "../assets/Banner.png";
 
 import DoctorCard from "./DoctorCard";
 
@@ -19,7 +19,7 @@ function ProfileBanner() {
   return (
     <div>
       <div>
-        <img src={banner} className="w-full object-cover" alt="Banner" />
+        <img src={Banner} className="w-full object-cover" alt="Banner" />
 
         <div>
           {/* main flex */}
